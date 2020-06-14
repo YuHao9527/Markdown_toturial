@@ -290,3 +290,54 @@ def fun():
     print('Hello, World!')
 fun()
 ```
+
+# 十、流程图
+
+代码：
+
+```
+flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+效果：
+
+flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+
+#### 定义元素的语法：
+
+`tag=>type: content:>url`
+
+- tag就是元素的名字
+- type是这个元素的类型，有6种类型，分别为：
+
+   - start # 开始
+   - end # 结束
+   - operation # 操作
+   - subroutine # 子程序
+   - condition # 条件
+   - inputoutput # 输入或产出
+- content就是在框中要填写的内容，注意type后的冒号与文本之间一定要有个空格。
+- url是一个链接，与框中的文本绑定
+
+#### 连接元素的语法
+
+用->来连接两个元素，需要注意的是condition类型，因为他有yes和no两个分支，所以要写成
+
+```
+c2(yes)->io->e
+c2(no)->op2->e
+```
