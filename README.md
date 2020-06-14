@@ -291,53 +291,35 @@ def fun():
 fun()
 ```
 
-# 十、流程图
+# 十、GFM语法
 
-代码：
+Github Flvored Markdown
+Github实现的具有自身特色的Markdown
 
-```
-flow
-st=>start: 开始
-op=>operation: My Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+语法：
 
-效果：
-
-flow
-st=>start: 开始
-op=>operation: My Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-
-#### 定义元素的语法：
-
-`tag=>type: content:>url`
-
-- tag就是元素的名字
-- type是这个元素的类型，有6种类型，分别为：
-
-   - start # 开始
-   - end # 结束
-   - operation # 操作
-   - subroutine # 子程序
-   - condition # 条件
-   - inputoutput # 输入或产出
-- content就是在框中要填写的内容，注意type后的冒号与文本之间一定要有个空格。
-- url是一个链接，与框中的文本绑定
-
-#### 连接元素的语法
-
-用->来连接两个元素，需要注意的是condition类型，因为他有yes和no两个分支，所以要写成
+任务列表 task list:
 
 ```
-c2(yes)->io->e
-c2(no)->op2->e
+- [x] task1
+- [ ] task2
+- [x] task3
 ```
+[空格]：表示未选中
+[x]: 表示选中
+
+效果如下：
+
+- [x] task1
+- [ ] task2
+- [x] task3
+
+表情符号 emoji：
+
+`:emoji code:`
+
+示例：
+
+`:blush:`显示为:blush:
+
+[Emoji表情](https://github.com/guodongxiaren/README/blob/master/emoji.md)
