@@ -128,7 +128,7 @@
 示例：
 
 ```
-[简书](http://jianshu.com)
+[GitHub](http://github.com)
 [百度](http://baidu.com)
 ```
 
