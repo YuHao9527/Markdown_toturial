@@ -97,4 +97,20 @@
 
 示例:
 
-#### ![刺客五六七](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592123676388&di=58a210f003fa08c937f5225d520c1138&imgtype=0&src=http%3A%2F%2Ft7.baidu.com%2Fit%2Fu%3D246700920%2C2949765168%26fm%3D193)
+#### ![刺客五六七](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592123676388&di=58a210f003fa08c937f5225d520c1138&imgtype=0&src=http%3A%2F%2Ft7.baidu.com%2Fit%2Fu%3D246700920%2C2949765168%26fm%3D193 "魔刀千刃")
+
+# 六、超链接
+
+语法：
+
+#### [超链接名](超链接地址 "超链接title") title可加可不加
+
+示例：
+
+#### [简书](http://jianshu.com)
+#### [百度](http://baidu.com)
+
+效果如下：
+
+[简书](http://jianshu.com)
+[百度](http://baidu.com)
