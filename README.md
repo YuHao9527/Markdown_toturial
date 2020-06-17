@@ -301,9 +301,20 @@
 ```
 `print('Hello, World!')`
 ```
+
 代码块：
 ```
 (```)
+def fun():
+    print('Hello, World!')
+fun()
+(```)
+```
+
+代码块语法高亮
+
+```
+(```)python
 def fun():
     print('Hello, World!')
 fun()
@@ -319,6 +330,14 @@ fun()
 代码块
 
 ```
+def fun():
+    print('Hello, World!')
+fun()
+```
+
+代码块语法高亮
+
+```python
 def fun():
     print('Hello, World!')
 fun()
